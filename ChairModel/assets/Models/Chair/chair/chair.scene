@@ -1,0 +1,53 @@
+<scene exported_by="lrlopez" formatVersion="1.0.1" previous_export_time="0" export_time="1329018649.242987" >
+	<nodes >
+		<node name="Camera" uuid="0bcb9a13139a4f481659f5ed5d3b5221" >
+			<position y="8.627679" x="8.226603" z="11.666432" />
+			<rotation qy="0.247067" qx="0.549211" qz="-0.174165" qw="0.779097" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<camera projectionType="perspective" fov="49.134342641202636" name="Camera" >
+				<clipping nearPlaneDist="0.10000000149011612" farPlaneDist="100.0" />
+			</camera>
+		</node>
+		<node name="Sun" uuid="daa5a092f27640973074f2c04e5735c3" >
+			<position y="15.783442" x="11.501397" z="-5.576817" />
+			<rotation qy="0.240729" qx="-0.115967" qz="-0.418218" qw="0.868156" />
+			<scale y="1.000000" x="1.000000" z="1.000000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<light shadow="true" type="directional" name="Sun" powerScale="1.5" >
+				<position y="15.783442" x="11.501397" z="-5.576817" />
+				<lightAttenuation range="5000" quadratic="0.0" constant="1.0" linear="0.04" />
+				<direction y="-0.623" x="-0.67" z="0.403" />
+				<colourDiffuse r="1.0" b="0.5583868026733398" g="0.7709984183311462" />
+				<colourSpecular r="1.0" b="0.5583868026733398" g="0.7709984183311462" />
+				<colourShadow r="1.0" b="0.5583868026733398" g="0.7709984183311462" />
+			</light>
+		</node>
+		<node name="Chair_model" uuid="c167bf920143621722e9ef3a14a911f0" >
+			<position y="3.261147" x="0.000000" z="1.012935" />
+			<rotation qy="0.000000" qx="0.000000" qz="-0.000000" qw="1.000000" />
+			<scale y="0.300000" x="0.300000" z="0.300000" />
+			<game >
+				<sensors />
+				<actuators />
+			</game>
+			<entity anisotropic_friction="False" lock_trans_y="False" damping_trans="0.03999999910593033" damping_rot="0.10000000149011612" inertia_tensor="0.4000000059604645" actor="False" velocity_min="0.0" lock_trans_z="False" physics_type="STATIC" lock_trans_x="False" meshFile="Cube.001.mesh" friction_y="1.0" friction_x="1.0" friction_z="1.0" velocity_max="0.0" ghost="False" name="Cube.001" mass_radius="1.0" mass="1.0" lock_rot_x="False" lock_rot_y="False" lock_rot_z="False" />
+		</node>
+	</nodes>
+	<externals >
+		<item type="material" >
+			<file name="/Users/lrlopez/Documents/Proyectos/jmonkey/TutorialJme/assets/Models/chair/chair.material" />
+		</item>
+	</externals>
+	<environment >
+		<colourBackground r="0.2856614589691162" b="0.5704602003097534" g="0.4085308015346527" />
+		<colourAmbient r="0.0" b="0.0" g="0.0" />
+		<colourDiffuse r="0.2856614589691162" b="0.5704602003097534" g="0.4085308015346527" />
+	</environment>
+</scene>
