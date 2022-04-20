@@ -31,7 +31,6 @@ public class Main extends SimpleApplication {
         rootNode.addLight(ambient); 
         
         
-
 DirectionalLight sol = new DirectionalLight();
 
 sol.setColor(ColorRGBA.White);
