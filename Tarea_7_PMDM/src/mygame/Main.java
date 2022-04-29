@@ -42,7 +42,7 @@ public class Main extends SimpleApplication {
     private RigidBodyControl bola_fis;
 
     private float coordX = -1.5f;
-    private float coordY = 1.5f;
+    private float coordY = 0f;
     private float coordZ = -8f;
 
     @Override
@@ -159,6 +159,7 @@ public class Main extends SimpleApplication {
         Spatial bolo = assetManager.loadModel("Models/Pin.obj");
 
         bolo.scale(0.2f);
+        
         bolo.setLocalTranslation(x, y, z);
         n.attachChild(bolo);
         rootNode.attachChild(n);
